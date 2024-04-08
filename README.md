@@ -59,7 +59,7 @@ And to perform a search, use the following command:
    node recommender.js
 ```
 
-## :pushpin: ATENÇÃO:
+## :pushpin: ATTENTION:
 
 You can change the search input in the recommender file.
 

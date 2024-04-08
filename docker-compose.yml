@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+    # DATABASES
+    dbpgv:
+       image: pgvector/pgvector:pg16
+       ports:
+           - "5432:5432"
+       environment:
+           POSTGRES_DB: dbpgv
+           POSTGRES_USER: dbpgv
+           POSTGRES_PASSWORD: dbpgv
+       volumes:
+           - ./docker-volumes/db-dbpgv/data:/var/lib/postgresql/data
